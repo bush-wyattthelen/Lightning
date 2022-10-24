@@ -84,7 +84,7 @@ void draw()
 {
   background(255);
   fill(0);
-  tally = lines.size() / 20;
+  tally = (int)((float)lines.size() / 20.0);
   text("Line count: " + tally, 5, 20);
   for (int i = 0; i < lines.size(); i++) {
     stroke(lines.get(i).getR(), lines.get(i).getG(), lines.get(i).getB(), lines.get(i).getGa());
