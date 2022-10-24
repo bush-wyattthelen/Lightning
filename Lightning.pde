@@ -100,8 +100,8 @@ void mousePressed()
 {
   int startX = 0;
   int startY = 150;
-  for (int i = 1; i <= 20; i++) {
-    int endX = 15 * i;
+  for (int j = 1; j <= 20; j++) {
+    int endX = 15 * j;
     int endY = startY + (int)((Math.random() - 0.5) * 40);
     lines.add(new Line(startX, startY, endX, endY, (int)(Math.random() * 256), (int)(Math.random() * 256), (int)(Math.random() * 256), 255));
     startX = endX;
