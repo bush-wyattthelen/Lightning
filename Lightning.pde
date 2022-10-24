@@ -72,7 +72,7 @@ class Line {
   }
 }
 
-ArrayList<Line> lines = new ArrayList<>();
+ArrayList<Line>lines = new ArrayList<>();
 int tally = 0;
 
 void setup()
